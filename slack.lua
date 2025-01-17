@@ -78,7 +78,9 @@ end
 -- Comments indicate the types of other variables.
 
 function Str(s)
-  return escape(s)
+  -- return escape(s)
+  -- Don't translate to HTML escape characters.
+  return s
 end
 
 function Space()
