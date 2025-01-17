@@ -100,8 +100,7 @@ function SmallCaps(s)
 end
 
 function Link(s, src, tit)
-  return "<a href='" .. escape(src,true) .. "' title='" ..
-         escape(tit,true) .. "'>" .. s .. "</a>"
+  return "[" .. s .. "](" .. escape(src,true) .. ")"
 end
 
 function Image(s, src, tit)
