@@ -275,6 +275,9 @@ meta.__index =
 setmetatable(_G, meta)
 
 
+function SoftBreak()
+  return " "
+end
 
 function LineBreak()
   return "\n"
